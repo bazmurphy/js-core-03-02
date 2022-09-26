@@ -22,7 +22,7 @@ function getDogImage() {
 
 function prePopulateList() {
     for (let i = 0; i < 5; i++) {
-        fetchAndAppendNewDogImage();
+      getDogImage();
     }
 }
 
